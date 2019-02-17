@@ -6,11 +6,11 @@
 
 ## installation
 
-####Mac
+Mac
 
     brew install agit
 
-####Linux
+Linux
 
     apt-get install agit
    
