@@ -17,7 +17,8 @@ def commit():
     no = now()
     cm = 'git commit -m "' + no + '"'
     print(exe(cm))
-
+    cm = "git push"
+    print(exe(cm))
 
 def init(rem = ""):
     cm = "echo '# _powered by **Agit**_' >ReadMe.md"
