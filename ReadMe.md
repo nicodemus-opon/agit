@@ -9,6 +9,7 @@
     cd ~/agit && chmod +x agit.py
     echo "alias agit='python3 ~/agit/agit.py'" >> ~/.bash_aliases
     source ~/.bash_aliases
+    
    
    
 #### Mac
