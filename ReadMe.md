@@ -1,4 +1,4 @@
-**Automate git processes**
+# **Automate git processes**
 
 ## installation
 
