@@ -2,7 +2,8 @@
 
 ## installation
 
-####Mac/Linux
+#### Mac/Linux
+
 
     git clone https://github.com/nicodemus-opon/agit.git ~/agit
     echo "alias agit='agit.py'" >> ~/.bash_aliases && source ~/.bash_aliases
