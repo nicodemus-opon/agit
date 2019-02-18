@@ -21,6 +21,7 @@ def now():
 
 
 def exe(cmd=""):
+    print("")
     print("agit :[ " + cmd + " ]")
     pe = subprocess.getoutput(cmd)
     return (str(pe))
