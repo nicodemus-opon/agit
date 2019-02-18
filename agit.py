@@ -1,6 +1,34 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python3
 # initialize and setup github
 # commit
+
+help_txt = '''
+_________________________________________
+ 
+  , 
+  ,;;,.
+  ;;;;;;
+  ;; ;; ;
+ _;; o;o;
+/ __`` ` `
+`.\ \    `-...--.
+  .\,\      ./---'
+   .\)'.___.'
+    .\_.-
+     ---' 
+
+Agit version 0.0.2
+
+initialize repo and push to remote repo:
+> agit init <<remote Repo>>
+
+Commit and push changes:
+> agit commit
+
+_________________________________________
+
+
+'''
 def now():
     return (str(datetime.now().isoformat(timespec='minutes')))
 
@@ -20,7 +48,8 @@ def commit():
     cm = "git push"
     print(exe(cm))
 
-def init(rem = ""):
+
+def init(rem=""):
     cm = "echo '# _powered by **Agit**_' >ReadMe.md"
     print(exe(cm))
     cm = "git init"
@@ -41,10 +70,14 @@ if __name__ == "__main__":
     import sys
     import subprocess
 
-    args = sys.argv[1::]
-    print(args)
-    if args[0] == "commit":
-        commit()
-    elif args[0] == "init":
-        repo = args[1]
-        init(repo)
+    try:
+        args = sys.argv[1::]
+        if args[0] == "commit":
+            commit()
+        elif args[0] == "init":
+            repo = args[1]
+            init(repo)
+        elif args[0] == "help":
+            print(help_txt)
+    except Exception as e:
+        print(help_txt)
