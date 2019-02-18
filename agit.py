@@ -2,20 +2,11 @@
 # initialize and setup github
 # commit
 
+# echo "alias agit='agit.py'" >> ~/.bash_aliases && source ~/.bash_aliases
+
 help_txt = '''
 _________________________________________
- 
-  , 
-  ,;;,.
-  ;;;;;;
-  ;; ;; ;
- _;; o;o;
-/ __`` ` `
-`.\ \    `-...--.
-  .\,\      ./---'
-   .\)'.___.'
-    .\_.-
-     ---' 
+
 
 Agit version 0.0.2
 
@@ -69,7 +60,9 @@ if __name__ == "__main__":
     from datetime import datetime
     import sys
     import subprocess
+    import os
 
+    dr = os.path.dirname(os.path.realpath(__file__))
     try:
         args = sys.argv[1::]
         if args[0] == "commit":
@@ -81,3 +74,7 @@ if __name__ == "__main__":
             print(help_txt)
     except Exception as e:
         print(help_txt)
+
+    print("updating ....")
+    cmds = "cd " + dr + " ;" + " git pull"
+    print(exe(cmds))
