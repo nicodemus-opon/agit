@@ -3,18 +3,15 @@
 # commit
 
 help_txt = '''
-_________________________________________
-
-
 Agit version 0.0.2
+
+Usage:
 
 initialize repo and push to remote repo:
 > agit init <<remote Repo>>
 
 Commit and push changes:
 > agit commit
-
-_________________________________________
 '''
 def now():
     return (str(datetime.now().isoformat(timespec='minutes')))
