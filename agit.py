@@ -2,8 +2,6 @@
 # initialize and setup github
 # commit
 
-# echo "alias agit='agit.py'" >> ~/.bash_aliases && source ~/.bash_aliases
-
 help_txt = '''
 _________________________________________
 
@@ -17,8 +15,6 @@ Commit and push changes:
 > agit commit
 
 _________________________________________
-
-
 '''
 def now():
     return (str(datetime.now().isoformat(timespec='minutes')))

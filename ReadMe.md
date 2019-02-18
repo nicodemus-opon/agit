@@ -1,18 +1,12 @@
-
-
-![enter image description here](https://raw.githubusercontent.com/nicodemus-opon/agit/master/log.png)
-
 **Automate git processes**
 
 ## installation
 
-Mac
+####Mac/Linux
 
-    brew install agit
-
-Linux
-
-    apt-get install agit
+    git clone https://github.com/nicodemus-opon/agit.git ~/agit
+    echo "alias agit='agit.py'" >> ~/.bash_aliases && source ~/.bash_aliases
+    echo 'export PATH="$PATH:/path/to/dir"' >>
    
    
 
