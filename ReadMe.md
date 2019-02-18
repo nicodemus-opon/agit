@@ -7,8 +7,7 @@
 
     git clone https://github.com/nicodemus-opon/agit.git ~/agit
     cd ~/agit && chmod +x agit.py
-    echo "alias agit='agit.py'" >> ~/.profile && source ~/.profile
-    echo 'export PATH="$PATH:~/agit"' >> ~/.profile && source ~/.profile
+    echo "alias agit='python3 ~/agit/agit.py'" >> ~/.profile && source ~/.bash_aliases
    
    
 #### Mac
