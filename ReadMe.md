@@ -7,7 +7,7 @@
 
     git clone https://github.com/nicodemus-opon/agit.git ~/agit
     echo "alias agit='agit.py'" >> ~/.bash_aliases && source ~/.bash_aliases
-    echo 'export PATH="$PATH:/path/to/dir"' >>
+    echo 'export PATH="$PATH:~/agit"' >> ~/.bashrc && source ~/.bashrc
    
    
 
