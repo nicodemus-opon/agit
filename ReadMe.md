@@ -1,4 +1,4 @@
-# **Automate git processes**
+# ** ♖ AGIT**
 
 Foobar is a Python library for dealing with word pluralization.
 
