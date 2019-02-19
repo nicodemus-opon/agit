@@ -65,10 +65,11 @@ def serve():
             cmd="git push"
             ep = str(subprocess.getoutput(cmd))
             print(ep)
+            print("")
+            print("-------- SERVING -------")
+            print("")
         time.sleep(1)
-        print("")
-        print("-------- SERVING -------")
-        print("")
+        
 
 
 if __name__ == "__main__":
