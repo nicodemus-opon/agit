@@ -55,7 +55,7 @@ def init(rem=""):
 
 def serve():
     di=str(subprocess.getoutput("echo $PWD"))
-    print("♖ Serving ",di," ...")
+    print("♖ SERVING ",di," ...")
     while True:
         cmd="git add ."
         ep = str(subprocess.getoutput(cmd))
