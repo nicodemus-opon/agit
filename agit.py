@@ -49,6 +49,27 @@ def init(rem=""):
     cm = "git push -u origin master"
     print(exe(cm))
 
+def serve():
+    di=str(subprocess.getoutput("echo $PWD"))
+    print("Serving ",di)
+    while True:
+        cmd="git add ."
+        ep = str(subprocess.getoutput(cmd))
+        cmd='git commit -m "'+now()+'"'
+        pe = str(subprocess.getoutput(cmd))
+        if pe[0:5]=="On br":
+            pass
+        else:
+            print("Detected changes")
+            print(pe)
+            cmd="git push"
+            ep = str(subprocess.getoutput(cmd))
+            print(ep)
+        time.sleep(1)
+        print("")
+        print("-------- SERVING -------")
+        print("")
+
 
 if __name__ == "__main__":
     from datetime import datetime
@@ -67,6 +88,8 @@ if __name__ == "__main__":
             init(repo)
         elif args[0] == "help":
             print(help_txt)
+        elif args[0] == "serve":
+            serve()
     except Exception as e:
         print(help_txt)
 
