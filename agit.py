@@ -13,6 +13,7 @@ initialize repo and push to remote repo:
 Commit and push changes:
 > agit commit
 '''
+
 def now():
     return (str(datetime.now().isoformat(timespec='minutes')))
 
@@ -54,6 +55,7 @@ if __name__ == "__main__":
     import sys
     import subprocess
     import os
+    import time
 
     dr = os.path.dirname(os.path.realpath(__file__))
     try:
