@@ -55,7 +55,7 @@ def init(rem=""):
 
 def serve():
     di=str(subprocess.getoutput("echo $PWD"))
-    print("Serving ",di)
+    print("♖ Serving ",di," ...")
     while True:
         cmd="git add ."
         ep = str(subprocess.getoutput(cmd))
@@ -64,12 +64,12 @@ def serve():
         if pe[0:5]=="On br":
             pass
         else:
-            print("Detected changes")
+            print("♖ Detected changes...")
             print(pe)
             cmd="git push"
             print(exe(cmd))
             print("")
-            print("-------- SERVING -------")
+            print("♖ SERVING...")
             print("")
         time.sleep(1)
         
