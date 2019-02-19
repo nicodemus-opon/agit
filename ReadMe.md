@@ -37,6 +37,6 @@
     agit commit
 
 
-### Realtime Commit and push changes 
+### Realtime Commit and push changes
 
     agit serve
