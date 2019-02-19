@@ -35,7 +35,7 @@ def commit():
 
 
 def init(rem=""):
-    cm = "echo '# _powered by **Agit**_' >ReadMe.md"
+    cm = "echo '# _powered by ☺ ** Agit**_' >ReadMe.md"
     print(exe(cm))
     cm = "git init"
     print(exe(cm))
@@ -63,8 +63,7 @@ def serve():
             print("Detected changes")
             print(pe)
             cmd="git push"
-            ep = str(subprocess.getoutput(cmd))
-            print(ep)
+            print(exe(cmd))
             print("")
             print("-------- SERVING -------")
             print("")
