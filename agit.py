@@ -12,6 +12,10 @@ initialize repo and push to remote repo:
 
 Commit and push changes:
 > agit commit
+
+Commit and push changes:
+> agit Serve
+
 '''
 
 def now():
@@ -69,7 +73,6 @@ def serve():
             print("")
         time.sleep(1)
         
-
 
 if __name__ == "__main__":
     from datetime import datetime
