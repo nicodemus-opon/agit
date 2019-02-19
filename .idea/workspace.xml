@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor>
-                <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550384982628</updated>
       <workItem from="1550384989675" duration="15184000" />
-      <workItem from="1550578804494" duration="1105000" />
+      <workItem from="1550578804494" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <created>1550498321326</created>
@@ -169,7 +169,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16289000" />
+    <option name="totallyTimeSpent" value="16501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -229,8 +229,8 @@
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>

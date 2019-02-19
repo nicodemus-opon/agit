@@ -1,6 +1,6 @@
 # **♖ AGIT**
 
-Foobar is a Python library for dealing with word pluralization.
+Agit is a CLI for automating Git Processes
 
 
 ## installation
