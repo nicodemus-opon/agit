@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="650">
-                <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+              <first_editor relative-caret-position="545">
+                <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550384982628</updated>
       <workItem from="1550384989675" duration="15184000" />
-      <workItem from="1550578804494" duration="788000" />
+      <workItem from="1550578804494" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <created>1550498321326</created>
@@ -169,7 +169,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15972000" />
+    <option name="totallyTimeSpent" value="16167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -229,8 +229,8 @@
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="650">
-            <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+          <first_editor relative-caret-position="545">
+            <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
