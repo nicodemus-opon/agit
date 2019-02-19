@@ -40,7 +40,7 @@ def commit():
 
 
 def init(rem=""):
-    cm = "echo '# _powered by ☺ ** Agit**_' >ReadMe.md"
+    cm = "echo '# ♖ Agit' >ReadMe.md"
     print(exe(cm))
     cm = "git init"
     print(exe(cm))
