@@ -23,7 +23,9 @@
 #### Windows
 
 
-    ¯\_(ツ)_/¯   
+    ¯\_(ツ)_/¯
+    
+   
 ## Usage
 ### initialize repo and push to remote repo
     
