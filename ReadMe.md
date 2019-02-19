@@ -35,3 +35,8 @@
 ### Commit and push changes
 
     agit commit
+
+
+### Commit and push changes Realtime
+
+    agit serve
