@@ -6,13 +6,13 @@ help_txt = '''
 Usage:
 
 initialize repo and push to remote repo:
-> agit init <<remote Repo>>
+$ agit init <<remote Repo>>
 
 Commit and push changes:
-> agit commit
+$ agit commit
 
 Realtime Commit and push changes:
-> agit Serve
+$ agit Serve
 
 '''
 
