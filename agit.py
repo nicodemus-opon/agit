@@ -13,7 +13,7 @@ initialize repo and push to remote repo:
 Commit and push changes:
 > agit commit
 
-Commit and push changes:
+Realtime Commit and push changes:
 > agit Serve
 
 '''
