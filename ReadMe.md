@@ -26,6 +26,7 @@
     ¯\_(ツ)_/¯   
 ## Usage
 ### initialize repo and push to remote repo
+    
     agit init https://github.com/username/reponame.git
 
 
