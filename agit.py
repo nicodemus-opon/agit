@@ -18,6 +18,7 @@ Commit and push changes:
 
 '''
 
+
 def now():
     return (str(datetime.now().isoformat(timespec='minutes')))
 
@@ -52,6 +53,7 @@ def init(rem=""):
     print(exe(cm))
     cm = "git push -u origin master"
     print(exe(cm))
+
 
 def serve():
     di=str(subprocess.getoutput("echo $PWD"))
