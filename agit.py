@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# initialize and setup github
-# commit
 
 help_txt = '''
 ♖ Agit version 0.0.2
