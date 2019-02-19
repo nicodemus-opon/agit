@@ -3,7 +3,7 @@
 # commit
 
 help_txt = '''
-Agit version 0.0.2
+♖ Agit version 0.0.2
 
 Usage:
 
