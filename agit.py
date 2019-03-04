@@ -72,7 +72,11 @@ def serve():
             print("♖ SERVING...")
             print("")
         time.sleep(1)
-        
+
+
+def legit():
+    print(exe("open https://youtu.be/bHSDYa95mMo?t=68"))
+    print("")
 
 if __name__ == "__main__":
     from datetime import datetime
@@ -93,6 +97,8 @@ if __name__ == "__main__":
             print(help_txt)
         elif args[0] == "serve":
             serve()
+        elif args[0] == "legit":
+            legit()
     except Exception as e:
         print(help_txt)
 
